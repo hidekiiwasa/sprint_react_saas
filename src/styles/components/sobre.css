@@ -1,0 +1,68 @@
+.sobreconteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  height: 100vh;
+  text-align: center;
+}
+@media (max-width: 1300px) {
+  .sobreconteudo {
+    font-size: 25px;
+  }
+}
+@media (max-width: 900px) {
+  .sobreconteudo {
+    font-size: 22px;
+  }
+}
+@media (max-width: 700px) {
+  .sobreconteudo {
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .sobreconteudo {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 300px) {
+  .sobreconteudo {
+    font-size: 0.9rem;
+  }
+}
+.sobreconteudo p:first-child {
+  width: 60%;
+}
+@media (max-width: 500px) {
+  .sobreconteudo p:first-child {
+    width: 70%;
+  }
+}
+.sobreconteudo .lista {
+  margin-top: 30px;
+}
+.sobreconteudo .lista ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media (max-width: 400px) {
+  .sobreconteudo .lista ul {
+    padding-left: 0;
+    gap: 1rem;
+  }
+}
+.sobreconteudo .lista ul h1 {
+  font-size: 40px;
+}
+@media (max-width: 500px) {
+  .sobreconteudo .lista ul h1 {
+    font-size: 1.5rem;
+  }
+}
+.sobreconteudo .lista ul li {
+  list-style-type: none;
+}/*# sourceMappingURL=sobre.css.map */

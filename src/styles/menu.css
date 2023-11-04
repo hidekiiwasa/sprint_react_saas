@@ -1,0 +1,27 @@
+.logo {
+  text-align: center;
+  margin-top: 10px;
+}
+.logo p {
+  font-family: fonte_daora_bold;
+  font-size: 40px;
+  color: #168f12;
+}
+@media (max-width: 500px) {
+  .logo p {
+    font-size: 2rem;
+  }
+}
+
+nav {
+  margin-left: 10%;
+  background-color: #f2f2f2;
+}
+nav a {
+  font-size: 20px !important;
+  font-family: fonte_daora_bold;
+  font-weight: bold !important;
+}
+nav a:hover {
+  color: #168f12 !important;
+}/*# sourceMappingURL=menu.css.map */

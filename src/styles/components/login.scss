@@ -1,0 +1,77 @@
+.loginconteudo, .cadastroconteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+    @media (max-width: 900px) {
+       height: 90vh;     
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 30%;
+
+        @media (max-width: 1000px) {
+            width: 60%;
+        }
+
+        label {
+            color: #168f12;
+            font-size: 30px;
+            font-weight: bold;
+            margin-left: 10px;
+            @media (max-width: 900px) {
+                font-size: 25px;
+            }
+        }
+
+        input {
+            padding-left: 10px;
+            border-radius: 12px;
+            font-size: 25px;
+            width: 100%;
+            @media (max-width: 900px) {
+                font-size: 20px;
+            }
+        }
+
+        button {
+            background-color: #168f12;
+            width: 100%;
+            height: 60px;
+            color: white;
+            font-size: 40px;
+            border-radius: 16px;
+            cursor: pointer;
+
+            @media (max-width: 900px) {
+                font-size: 30px;
+                height: 50px;
+            }
+        }
+
+        .botaologin {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            a {
+                font-size: 30px;
+                color: #168f12;
+                text-decoration: none;
+                text-align: center;
+
+                @media (max-width: 900px) {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+}

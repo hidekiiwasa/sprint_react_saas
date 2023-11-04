@@ -1,0 +1,28 @@
+.logo {
+    text-align: center;
+    margin-top: 10px;
+    p {
+        font-family: fonte_daora_bold;
+        font-size: 40px;
+        color: #168f12;
+        @media (max-width: 500px) {
+            font-size: 2rem;
+        }
+    }
+}
+
+nav {
+    margin-left: 10%;
+    background-color: #f2f2f2;
+    a {
+        font-size: 20px !important;
+        font-family: fonte_daora_bold;
+        font-weight: bold !important;
+        &:hover {
+            color: #168f12 !important;
+        }
+    }
+
+}
+
+
