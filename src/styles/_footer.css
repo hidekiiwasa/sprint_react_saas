@@ -1,3 +1,11 @@
+@font-face {
+  font-family: fonte_daora;
+  src: url(../assets/PPMori-Regular.otf);
+}
+@font-face {
+  font-family: fonte_daora_bold;
+  src: url(../assets/PPMori-SemiBold.otf);
+}
 footer {
   background-color: #052e04;
   width: 100%;
@@ -12,4 +20,8 @@ footer {
 }
 footer p {
   margin-bottom: 0;
+}
+footer svg {
+  font-size: 30px;
+  color: white;
 }/*# sourceMappingURL=footer.css.map */

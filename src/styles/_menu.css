@@ -1,3 +1,11 @@
+@font-face {
+  font-family: fonte_daora;
+  src: url(../assets/PPMori-Regular.otf);
+}
+@font-face {
+  font-family: fonte_daora_bold;
+  src: url(../assets/PPMori-SemiBold.otf);
+}
 .logo {
   text-align: center;
   margin-top: 10px;

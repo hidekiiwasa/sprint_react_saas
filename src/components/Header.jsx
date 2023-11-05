@@ -1,6 +1,6 @@
 import {} from 'react'
 import Nav from './Nav'
-import '../styles/menu.css'
+import '../styles/_menu.css'
 
 
 function Header() {

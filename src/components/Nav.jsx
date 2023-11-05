@@ -9,24 +9,6 @@ function Nav({ pagina }) {
 
     return (
         <>
-            {/* <nav id='nav'>
-                <button id='botao-hamburguer' onClick={toggleMenu}>
-                    <span id='hamburguer'></span>
-                </button>
-                <ul className='flex' id='menu'>
-                    <li>
-                        <button id='botaoDropdown' onClick={desktopToggleMenu}>{pagina ? pagina : "home"}</button>
-                        <ul className='menudropdown' id='menudropdown'>
-                            <li><a href="/">home</a></li>
-                            <li><a href="/proposta">proposta</a></li>
-                            <li><a href='/sobre'>sobre</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="/login">login</a>
-                    </li>
-                </ul>
-            </nav> */}
             <Navbar expand="lg">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

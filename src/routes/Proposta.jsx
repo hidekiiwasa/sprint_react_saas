@@ -1,5 +1,5 @@
 import {} from 'react'
-import '../styles/components/proposta.css'
+import '../styles/components/_proposta.css'
 import estatisticas from '../assets/1.jpg'
 import prato from '../assets/2.jpg'
 import arduino from '../assets/3.jpg'

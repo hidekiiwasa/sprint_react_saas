@@ -1,5 +1,7 @@
+@import './base/_variaveis.scss';
+
 footer {
-    background-color: #052e04;
+    background-color: $verde-escuro;
     width: 100%;
     height: 50px;
     margin-top: auto;
@@ -12,5 +14,10 @@ footer {
     
     p {
         margin-bottom: 0;
+    }
+
+    svg {
+        font-size: 30px;
+        color: white;
     }
 }
